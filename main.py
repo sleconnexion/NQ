@@ -7,7 +7,7 @@ from datetime import timedelta
 app = Dash(__name__)
 server = app.server
 app.layout = html.Div([
-    html.H4('NQ historique'),
+    html.H4('NQ historique '),
     html.Label("Date:"),
     dcc.DatePickerSingle(
         id='date-picker-single',
